@@ -1,0 +1,8 @@
+{{- include "ffc-helm-library.deployment" (list . "fcp-fd-landing-page.deployment") -}}
+{{- define "fcp-fd-landing-page.deployment" -}}
+spec:
+  template:
+    spec:
+      containers:
+      - {{ include "ffc-helm-library.container" (list . "fcp-fd-landing-page.container") }}
+{{- end -}}
