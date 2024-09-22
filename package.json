@@ -1,6 +1,6 @@
 {
   "name": "fcp-fd-landing-page",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Micro front end for Single Front Door landing page",
   "homepage": "https://github.com/DEFRA/fcp-fd-landing-page",
   "main": "app/index.js",
