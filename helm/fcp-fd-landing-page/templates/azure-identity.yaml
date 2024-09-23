@@ -1,0 +1,3 @@
+{{- include "ffc-helm-library.azure-identity" (list . "fcp-fd-landing-page.azure-identity") -}}
+{{- define "fcp-fd-landing-page.azure-identity" -}}
+{{- end -}}
