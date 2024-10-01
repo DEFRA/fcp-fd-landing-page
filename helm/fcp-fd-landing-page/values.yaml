@@ -43,6 +43,8 @@ readinessProbe:
   failureThreshold: 3
   timeoutSeconds: 5
 
+usePodIdentity: true
+
 azureIdentity:
-  resourceID:
-  clientID:
+  resourceID: not-a-real-resourceID
+  clientID: not-a-real-clientID
