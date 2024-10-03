@@ -8,8 +8,8 @@ services:
     image: fcp-fd-landing-page-development
     container_name: fcp-fd-landing-page-development
     ports:
-      - "3021:3021"
-      - "9021:9229"
+      - "3031:3031"
+      - "9031:9229"
     volumes:
       - ./app:/home/node/app
       - ./package.json:/home/node/package.json
